@@ -1,12 +1,10 @@
 # Cross-chain-environment
-Contain three private-chain which build with .puppeth.
+Contain three private-chain which build with .puppeth. You can easily demo the cross-chain interaction with DApp and Smart-Contract.
 
-### Chain_environment
-* Contain a DApp monitor.java and Simple Smart-contract.
 
-## Pre-define setting.
+### The enviornment of each chain.
 
-### You can run startnode.cmd in package Chain1, Chain2, Ethereum_PoA for implement nodes easily.
+## You can run startnode.cmd in package Chain1, Chain2, Ethereum_PoA for implement nodes easily.
 
 ```
 [
