@@ -4,7 +4,7 @@ Contain three private-chain which build with .puppeth. You can easily demo the c
 
 ### The enviornment of each chain.
 
-## You can run startnode.cmd in package Chain1, Chain2, Ethereum_PoA for implement nodes easily.
+* You can run startnode.cmd in package Chain1, Chain2, Ethereum_PoA for implement nodes easily.
 
 ```
 [
