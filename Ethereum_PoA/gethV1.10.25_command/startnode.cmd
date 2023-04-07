@@ -1,0 +1,1 @@
+geth --datadir node --nodiscover --networkid 1338 --port 30010 --http --http.port 8545  --ipcdisable --allow-insecure-unlock --rpc.allow-unprotected-txs  console

@@ -1,0 +1,8 @@
+startnode
+geth --datadir node --nodiscover --networkid 1338 --port 30010 --rpc --rpcport 8545  --ipcdisable --allow-insecure-unlock console
+
+startnode1
+geth --datadir node2 --nodiscover --networkid 1338 --ipcdisable --rpc --rpcport 8546 --port 30011 -rpcapi "db,eth,net,web3,admin,personal" --rpccorsdomain "*" --allow-insecure-unlock console
+
+startnode2
+geth --datadir node3 --nodiscover --networkid 1338 --ipcdisable --rpc --rpcport 8547 --port 30012 -rpcapi "db,eth,net,web3,admin,personal" --rpccorsdomain "*" --allow-insecure-unlock console

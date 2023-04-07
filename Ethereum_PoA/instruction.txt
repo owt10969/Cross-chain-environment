@@ -1,0 +1,11 @@
+geth --rpc --rpcport 9546 --nodiscover --datadir  "./nodedata2"  --port 30307 --rpcapi "db,eth,net,web3" --rpccorsdomain "*" --networkid 1001 --ipcdisable console
+
+geth --datadir node --nodiscover --networkid 15 --port 30001 --rpc --rpcport 8546 console
+geth --datadir node --nodiscover --syncmode "full" --networkid 15 --port 30001 --rpc --rpcport 8546 console
+
+geth --datadir node2 --nodiscover --networkid 15 --port 30002 --rpc --rpcport 8547 --ipcdisable console
+geth --datadir node2 --nodiscover --syncmode "full" --networkid 15 --port 30002 --rpc --rpcport 8547 --ipcdisable console
+
+
+geth --datadir node3 --nodiscover --networkid 15 --port 30003 --rpc --rpcport 8548 --ipcdisable console
+geth --datadir node3 --nodiscover --syncmode "full" --networkid 15 --port 30003 --rpc --rpcport 8548 console

@@ -1,0 +1,1 @@
+geth --datadir node0 --nodiscover --networkid 11 --port 30013 --rpc --rpcport 2001 --rpcapi "web3,net,eth,admin,personal" --rpccorsdomain "*" --ipcdisable --allow-insecure-unlock console

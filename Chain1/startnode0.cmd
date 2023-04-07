@@ -1,0 +1,1 @@
+geth --datadir node0 --nodiscover --networkid 10 --port 30016 --rpc --rpcport 8549 --rpcapi "web3,net,eth,admin,personal" --rpccorsdomain "*" --ipcdisable --allow-insecure-unlock console

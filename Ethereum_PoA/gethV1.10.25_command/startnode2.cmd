@@ -1,0 +1,1 @@
+geth --datadir node2 --nodiscover --networkid 1338 --http --http.port 8546 --port 30011 --http.api "web3,net,eth.db,admin,personal" --http.corsdomain "*" --allow-insecure-unlock --ipcdisable --rpc.allow-unprotected-txs console
